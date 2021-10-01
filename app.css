@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cta-1-bg: hsl(359, 83%, 65%);
+  --cta-2-bg: hsl(201, 60%, 59%);
+  --links: hsl(210, 6%, 46%);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+p {
+  color: hsl(210, 5%, 64%);
+}
+
+.btn {
+  display: block;
+}
+
+.btn-cta {
+  color: white;
+  padding: 1em 1.5em;
+  border-radius: 0.8em;
+}

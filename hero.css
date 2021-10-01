@@ -1,0 +1,54 @@
+.hero {
+  min-height: 100vh;
+  background-image: url(images/hero-bg.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-right: 6rem;
+  text-align: right;
+}
+
+.slogan {
+  color: hsl(0, 0%, 75%);
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.para {
+  color: hsl(210, 5%, 64%);
+  text-align: center;
+}
+
+.cta-2 {
+  width: max-content;
+  color: white;
+  background-color: var(--cta-2-bg);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1014px) {
+  .para, .slogan {
+    color: #131212;
+  }
+}
+
+@media screen and (max-width: 726px) {
+  .hero {
+    align-items: center;
+  }
+
+  .title-section {
+    text-align: center;
+    margin-right: 0;
+  }
+}

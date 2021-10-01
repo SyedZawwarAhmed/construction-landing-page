@@ -1,0 +1,26 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+  gap: 4rem;
+}
+
+.nav-link {
+  color: var(--links);
+}
+
+.cta-1 {
+  background-color: var(--cta-1-bg);
+}
